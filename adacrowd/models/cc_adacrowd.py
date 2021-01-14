@@ -7,7 +7,7 @@ from .adacrowd.blocks import assign_adaptive_params
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-SINGLE_FOLDER_DATASETS = ["WE", "CityUHK"]
+SINGLE_FOLDER_DATASETS = ["WE", "City"]
 
 
 class CrowdCounterAdaCrowd(nn.Module):
