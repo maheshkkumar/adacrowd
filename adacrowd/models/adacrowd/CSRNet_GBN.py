@@ -30,7 +30,7 @@ class CSRNet_GBN(nn.Module):
             pool_type='adapt_avg_pool')
 
         # decoder to generate the output density map
-        self.crowd_encoder = CrowdDecoder(norm='GBN', num_gbnnorm=self.num_gbnnorm)
+        self.crowd_decoder = CrowdDecoder(norm='GBN', num_gbnnorm=self.num_gbnnorm)
 
         # MLP to generate the adaptive normalization parameters from the output
         # of guiding decoder

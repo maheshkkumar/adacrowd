@@ -20,7 +20,7 @@ class Res101_GBN(nn.Module):
         self.crowd_encoder = CrowdEncoder()
 
         # guiding encoder does not consist of normalization layers
-        self.crowd_encoder = GuidingEncoder(downs=4, ind_im=3, dim=64, latent_dim=64, norm='none', activ='relu',
+        self.guiding_encoder = GuidingEncoder(downs=4, ind_im=3, dim=64, latent_dim=64, norm='none', activ='relu',
                                                     pad_type='reflect', pool_type='adapt_avg_pool')
 
         # decoder to generate the output density map
