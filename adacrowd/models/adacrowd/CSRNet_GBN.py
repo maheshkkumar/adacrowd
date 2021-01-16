@@ -34,7 +34,7 @@ class CSRNet_GBN(nn.Module):
 
         # MLP to generate the adaptive normalization parameters from the output
         # of guiding decoder
-        num_ada_params = get_num_adaptive_params(self.crowd_encoder)
+        num_ada_params = get_num_adaptive_params(self.crowd_decoder)
         self.guiding_mlp = GuidingMLP(
             in_dim=64,
             out_dim=num_ada_params,
