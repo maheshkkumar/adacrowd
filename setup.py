@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name='adacrowd',
     version='1.0.0',
-    author='Mahesh Kumar Krishna Reddy'
+    author='Mahesh Kumar Krishna Reddy',
     description='Pytorch implementation of the AdaCrowd method for unlabeled scene adaptation',
     packages=setuptools.find_packages(),
     classifiers=(
