@@ -2,7 +2,7 @@
 
 This repository contains the code for [AdaCrowd: Unlabeled Scene Adaptation for Crowd
 Counting]() <br>
-[[[arXiv]]](https://arxiv.org/abs/2010.12141) <br>
+IEEE Transactions on Multimedia 2021<br>
 
 ### Setup
 
